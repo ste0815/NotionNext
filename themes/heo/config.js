@@ -114,9 +114,9 @@ const CONFIG = {
 
   // 底部统计面板文案
   HEO_POST_COUNT_TITLE: '文章数:',
-  HEO_SITE_TIME_TITLE: '建站天数:',
-  HEO_SITE_VISIT_TITLE: '访问量:',
-  HEO_SITE_VISITOR_TITLE: '访客数:',
+//   HEO_SITE_TIME_TITLE: '建站天数:',
+//   HEO_SITE_VISIT_TITLE: '访问量:',
+//   HEO_SITE_VISITOR_TITLE: '访客数:',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
@@ -134,10 +134,10 @@ const CONFIG = {
   HEO_POST_LIST_PREVIEW: false, // 读取文章预览
   HEO_POST_LIST_IMG_CROSSOVER: true, // 博客列表图片左右交错
 
-  HEO_ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
+  HEO_ARTICLE_ADJACENT: false, // 显示上一篇下一篇文章推荐
   HEO_ARTICLE_COPYRIGHT: false, // 显示文章版权声明
   HEO_ARTICLE_NOT_BY_AI: false, // 显示非AI写作
-  HEO_ARTICLE_RECOMMEND: true, // 文章关联推荐
+  HEO_ARTICLE_RECOMMEND: false, // 文章关联推荐
 
   HEO_WIDGET_LATEST_POSTS: true, // 显示最新文章卡
   HEO_WIDGET_ANALYTICS: false, // 显示统计卡
